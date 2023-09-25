@@ -1,0 +1,126 @@
+.main-container {
+  margin-top: 2rem;
+}
+.header-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.header {
+  color: #333131;
+  text-align: center;
+  font-family: Montserrat-Bold;
+  font-size: 2.875rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.text {
+  color: rgba(0, 0, 0, 0.7);
+  text-align: center;
+  font-family: Montserrat-Regular;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-top: 0.5rem;
+}
+.achiv-container {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+}
+.first-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2.5rem;
+}
+.second-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2.5rem;
+  margin-top: 2.75rem;
+}
+.container {
+  /* width: 40%; */
+  display: flex;
+  flex-direction: column;
+}
+.icon-container {
+  width: 2.41706rem;
+  height: 2.125rem;
+  flex-shrink: 0;
+  border-radius: 0.625rem;
+  background: rgba(239, 231, 156, 0.35);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon {
+  width: 1.70613rem;
+  height: 1.5rem;
+  flex-shrink: 0;
+  background: url("../forms/assets/delivery.svg") no-repeat;
+}
+.icon-second {
+  width: 1.70613rem;
+  height: 1.5rem;
+  flex-shrink: 0;
+  background: url("../forms/assets/delivery-done.svg") no-repeat;
+}
+.header-achiv {
+  color: #000;
+  font-family: Montserrat-Bold;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-top: 1rem;
+}
+.text-achiv {
+  color: #000;
+  font-family: Montserrat-Regular;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-top: 0.25rem;
+}
+@media (max-width: 426px) {
+  .header {
+    font-size: 1.75rem;
+  }
+  .achiv-container {
+    margin: 1.5rem;
+  }
+  .text-achiv {
+    font-size: 0.75rem;
+  }
+}
+@media (max-width: 376px) {
+  .header {
+    font-size: 1.5rem;
+  }
+  .text {
+    font-size: 0.65rem;
+  }
+  .header-achiv {
+    font-size: 0.85rem;
+  }
+}
+@media (max-width: 321px) {
+  .header {
+    font-size: 1.25rem;
+  }
+  .text {
+    font-size: 0.65rem;
+  }
+  .header-achiv {
+    font-size: 0.685rem;
+  }
+  .text-achiv {
+    font-size: 0.65rem;
+  }
+}

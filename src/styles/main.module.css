@@ -1,0 +1,36 @@
+.screen-container {
+  background-image: url("../forms/assets/Main screen.svg");
+  width: 100%;
+  height: 1020px;
+  background-size: cover;
+}
+@media (max-width: 1280px) {
+  .screen-container {
+    height: 900px;
+  }
+}
+@media (max-width: 1024px) {
+  .screen-container {
+    height: 685px;
+  }
+}
+@media (max-width: 769px) {
+  .screen-container {
+    height: 515px;
+  }
+}
+@media (max-width: 426px) {
+  .screen-container {
+    height: 315px;
+  }
+}
+@media (max-width: 376px) {
+  .screen-container {
+    height: 260px;
+  }
+}
+@media (max-width: 321px) {
+  .screen-container {
+    height: 230px;
+  }
+}

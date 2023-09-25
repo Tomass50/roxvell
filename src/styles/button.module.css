@@ -1,0 +1,42 @@
+.btn-container {
+  display: flex;
+  width: 100%;
+  padding: 0.5rem 3.0625rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.3125rem;
+  border: 1px solid #a1b5e8;
+  background: #0c1d2d;
+  font-family: Montserrat;
+  font-size: 0.8125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: white;
+  transition: 0.3s;
+}
+.btn-container:active {
+  scale: 0.8;
+}
+.btn-container-second {
+  display: flex;
+  width: 9.375rem;
+  height: 3.0625rem;
+  padding: 0.5rem 3.0625rem;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 0.3125rem;
+  border: 1px solid #a4a4a4;
+  background: rgba(255, 255, 255, 0.08);
+  color: #fff;
+  font-family: Montserrat-Regular;
+  font-size: 0.8125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  transition: 0.3s;
+}
+.btn-container-second:active {
+  scale: 0.8;
+}

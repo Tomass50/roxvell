@@ -1,0 +1,143 @@
+.main-container {
+  margin-top: 1.75rem;
+}
+.header-logo-container {
+  display: flex;
+}
+.header {
+  display: flex;
+  color: #1a1a1a;
+  font-family: Montserrat;
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 4rem;
+}
+.text-container {
+  display: flex;
+  margin-left: 4rem;
+  gap: 1.75rem;
+  margin-top: 0.5rem;
+}
+.text {
+  color: #2b2b2b;
+  font-family: Montserrat;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.image-delivery {
+  padding: 0.5rem 0.5rem;
+  object-fit: contain;
+  width: 100%;
+  height: 50%;
+}
+.second-container {
+  width: 32.5625rem;
+  height: 13.0625rem;
+  border-radius: 0.9375rem;
+  border: 1px solid #a4a4a4;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(5px);
+  position: absolute;
+  top: 28rem;
+  left: 60rem;
+  display: flex;
+  flex-direction: column;
+}
+.third-header {
+  color: white;
+  font-family: Montserrat-SemiBold;
+  font-size: 0.9375rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 0.87rem;
+  margin-left: 0.88rem;
+}
+.text-second {
+  color: #fff;
+  font-family: Montserrat-Regular;
+  font-size: 0.8125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 0.5rem;
+  margin-left: 0.88rem;
+}
+.btn-container {
+  display: flex;
+  margin-top: 3rem;
+  margin-left: 0.88rem;
+  gap: 0.5rem;
+  align-items: center;
+}
+.btn-text {
+  color: rgba(255, 255, 255, 0.78);
+  font-family: Montserrat;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+@media (max-width: 1025px) {
+  .header {
+    font-size: 1.75rem;
+    gap: 17rem;
+  }
+  .text {
+    font-size: 0.7rem;
+  }
+}
+@media (max-width: 769px) {
+  .header {
+    font-size: 1.5rem;
+    gap: 5rem;
+  }
+  .text-container {
+    gap: 0.5rem;
+  }
+  .text {
+    font-size: 0.85rem;
+  }
+}
+@media (max-width: 426px) {
+  .header {
+    font-size: 1.25rem;
+    margin-left: 1.5rem;
+  }
+  .text-container {
+    margin-left: 1.5rem;
+  }
+  .text {
+    font-size: 0.7rem;
+  }
+}
+@media (max-width: 376px) {
+  .header {
+    font-size: 1.25rem;
+    margin-left: 1.5rem;
+  }
+  .text-container {
+    margin-left: 1.5rem;
+  }
+  .text {
+    font-size: 0.7rem;
+  }
+}
+@media (max-width: 321px) {
+  .header {
+    font-size: 1rem;
+    margin-left: 1.5rem;
+  }
+  .text-container {
+    margin-left: 1.5rem;
+  }
+  .text {
+    font-size: 0.75rem;
+  }
+}
