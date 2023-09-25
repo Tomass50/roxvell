@@ -62,7 +62,7 @@ const ComSection = () => {
               Lorem ipsum dolor sit amet consectetur.
             </Title>
             {commentData.map((item, idx) => {
-              return <ComContainer data={item} />;
+              return <ComContainer key={idx} data={item} />;
             })}
           </div>
         </motion.div>

@@ -73,6 +73,7 @@ const Form = () => {
       {INPUTS.map(({ className, labelText, placeholder, typeInput, name }) => {
         return (
           <FormInput
+            key={name}
             labelText={labelText}
             placeholder={placeholder}
             typeInput={typeInput}
