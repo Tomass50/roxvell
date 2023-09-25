@@ -3,7 +3,7 @@
   height: 80px;
   align-items: center;
   display: flex;
-  background: rgba(000, 000, 000, 0.125);
+  /* background: rgba(000, 000, 000, 0.125); */
   justify-content: center;
   position: fixed;
   z-index: 1000;
@@ -74,7 +74,6 @@
 }
 .scrolled {
   background: rgba(10, 19, 43, 0.65);
-  backdrop-filter: blur(5px);
   transition: background 0.2s ease, backdrop-filter 0.2s ease;
 }
 @media screen and (min-width: 768px) {
